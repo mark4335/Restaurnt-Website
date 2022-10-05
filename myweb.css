@@ -1,0 +1,209 @@
+
+body {
+    background-color:;
+
+    color:;
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: 16px;
+    line-hieght: 1.6em;
+    margin: 0;
+}
+.M-1 {
+    background-color:peru;
+    color: whitesmoke;
+    
+    margin: 10px 30px 0 30px;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+M-2 {
+    margin: 0 30px 0 30px;
+    background-color: lightgray;
+}
+
+.M-2 h2 {
+    padding: 0;
+    margin: 0 30px;
+}
+
+.M-2 p {
+    padding: 0;
+    margin: 0 30px;
+}
+
+.navbar {
+    background-color:b;
+    color:;
+    text-align: center;
+    margin: 0 30px 0 30px;
+}
+
+    .navbar ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .navbar li {
+        display: inline;
+    }
+
+    .navbar a {
+        color: lightseagreen;
+        text-decoration: none;
+        font-size: 18px;
+        padding-right: 17px;text-align:center;
+    }
+    M-3{
+            }
+
+.show {
+    background-color:black;
+    background-image: url(MWimages/teatime.jpg);
+    background-position: center right;
+    background-size: 90%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    min-height: 30px;
+    margin: 30px;
+    padding-bottom: ;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.show-1{
+    background-color: black;
+    background-image: url(MWimages/menue.jpg);
+    background-position: center right;
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    min-height: 30px;
+    margin: 30px;
+    padding-bottom:;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+    .show h1 {
+        color: gray;
+        font-size: 50px;
+        line-height: 1.6em;
+        padding: 10px;
+    }
+
+.addr3 {
+    background-color: darkseagreen;
+    margin: 0 30px 0 30px;
+    
+}
+
+.addr {
+    background-color: lightgray;
+    margin: 0 30px 0 30px;
+}
+
+.man {
+    padding:10px 0 10px 0;
+    background-color:  darkseagreen;
+    margin: 0 30px 0 30px;
+}
+.man h4,h3,ul{ padding:0;
+         margin:0;
+}
+
+label { 
+	    width: 10em; 
+	    font-weight:bold;
+	    text-align: right; 
+	    padding-right: 1em;
+	    display: block; float: left;
+		}
+input{margin-bottom: 2em; 
+                  display: block;} 
+textarea { margin-bottom: 2em; 
+                  display: block;} 
+#mySubmit { margin-left: 12em; }
+
+.abt {
+    float: left;
+    width: 50%;
+    border: 1px ;
+    padding :0px ;
+    margin-left :;
+    box-sizing:border-box;
+}
+.floatright {
+    width: 50%;
+    float: right;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+
+.fot {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+    display: block;
+    font-style: italic;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    margin: 0 30px 0 30px;
+}
+nav a:link {
+color : darkblue;
+}
+nav a:visited {
+color :black;
+}
+nav a:hover { 
+font-size:20px;
+color :peru;border-radius:7px;
+background-color :lightgreen;
+border : 3px;
+}
+nav ul {
+list-style-type : none;
+margin : 0;
+padding : 0;
+}
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: inline;
+
+}
+@media only screen and (max-width: 1024px) {
+    section.abt{text-align:center;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .floatright{float:none;display:none;}
+    body{height:100%}
+    section.abt { width:100%;text-align:center;
+                  min-height:300px;}
+    section.addr3 { text-align:center;}
+    section.addr { text-align:center;}
+    .slider img {
+        max-height:0;
+    }
+}
+.order {
+    padding: 0 30px 10px 30px;
+}
+.slider img{ padding-left:30px;
+
+}
+
+
+
